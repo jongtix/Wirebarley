@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    cache: false
+
+currencylayer:
+  api:
+    url: http://www.apilayer.net/api/live
+    access_key: 32cf93f415da0a9dce05311b0caa14ec
+#    url: http://www.apilayer.net/api/live?access_key=32cf93f415da0a9dce05311b0caa14ec&source=USD&currencies=KRW,JPY,PHP
